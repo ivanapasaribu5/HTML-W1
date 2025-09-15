@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Pendaftaran - IF 2023</title>
+</head>
+<body>
+  <header>
+    <h1>Form Pendaftaran Mahasiswa IF 2023</h1>
+    <nav>
+      <a href="index.html">Blog</a> |
+      <a href="detail.html">Detail Blog</a> |
+      <a href="register.html">Form Pendaftaran</a> |
+      <a href="nilai.html">Perolehan Nilai</a> |
+      <a href="cv.html">CV</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <h2>Silakan isi data diri Anda</h2>
+    <form action="#" method="post">
+      <!-- Nama lengkap -->
+      <label for="nama">Nama Lengkap:</label><br>
+      <input type="text" id="nama" name="nama" required><br><br>
+
+      <!-- Jenis kelamin -->
+      <label>Jenis Kelamin:</label><br>
+      <input type="radio" id="laki" name="jk" value="Laki-laki" required>
+      <label for="laki">Laki-laki</label><br>
+      <input type="radio" id="perempuan" name="jk" value="Perempuan">
+      <label for="perempuan">Perempuan</label><br><br>
+
+      <!-- Tempat lahir -->
+      <label for="tempat">Tempat Lahir:</label><br>
+      <input type="text" id="tempat" name="tempat" required><br><br>
+
+      <!-- Tanggal lahir -->
+      <label for="tanggal">Tanggal Lahir:</label><br>
+      <input type="date" id="tanggal" name="tanggal" required><br><br>
+
+      <!-- Hobi -->
+      <label>Hobi:</label><br>
+      <input type="checkbox" id="membaca" name="hobi" value="Membaca">
+      <label for="membaca">Membaca</label><br>
+      <input type="checkbox" id="olahraga" name="hobi" value="Olahraga">
+      <label for="olahraga">Olahraga</label><br>
+      <input type="checkbox" id="musik" name="hobi" value="Musik">
+      <label for="musik">Musik</label><br>
+      <input type="checkbox" id="traveling" name="hobi" value="Traveling">
+      <label for="traveling">Traveling</label><br><br>
+
+      <!-- Password -->
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" required><br><br>
+
+      <!-- Persetujuan -->
+      <input type="checkbox" id="setuju" name="setuju" required>
+      <label for="setuju">Saya menyetujui semua ketentuan</label><br><br>
+
+      <!-- Tombol -->
+      <input type="reset" value="Reset">
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+
+  <footer>
+    <hr>
+    <p>&copy; 2025 IF 1 2023 - Institut Teknologi Del</p>
+  </footer>
+</body>
+</html>
